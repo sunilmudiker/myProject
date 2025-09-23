@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test thread-count="5" name="MyProject1">
+        <parameter name="Browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="TestngConcept.GroupExecution"/>
+        </classes>
+    </test> <!-- MyProject -->
+    <test thread-count="5" name="MyProject2">
+        <parameter name="Browser" value="firefox">
+        </parameter>
+        <classes>
+            <class name="TestngConcept.GroupExecution"/>
+        </classes>
+    </test>
+</suite> <!-- Default Suite -->
