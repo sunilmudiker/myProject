@@ -3,7 +3,7 @@
 <suite name="Default Suite">
     <test thread-count="5" name="MyProject">
         <classes>
-            <class name="AssertionConcept"/>
+            <class name="MavenExecutionConcept"/>
         </classes>
     </test> <!-- MyProject -->
 </suite> <!-- Default Suite -->

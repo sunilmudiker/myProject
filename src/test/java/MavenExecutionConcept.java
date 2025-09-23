@@ -7,7 +7,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
-public class AssertionConcept {
+public class MavenExecutionConcept {
     @Test
     public static void hardAssert()
     {
