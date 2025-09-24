@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class MavenExecutionConcept {
     @Test
-    public static void hardAssert()
+    public static void hardAssertConcept()
     {
         WebDriver driver = new ChromeDriver();
 
@@ -25,7 +25,7 @@ public class MavenExecutionConcept {
     }
 
     @Test
-    public static void softAssert()
+    public static void softAssertConcept()
     {
         WebDriver driver = new ChromeDriver();
 
